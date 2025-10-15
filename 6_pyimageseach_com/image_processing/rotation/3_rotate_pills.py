@@ -41,7 +41,3 @@ if len(cnts) > 0:
         rotated = imutils.rotate_bound(imageROI, angle)
         cv2.imshow("Rotated (Correct)", rotated)
         cv2.waitKey(0)
-
-# plt.subplot(1, 2, 1), plt.imshow(image), plt.title('original'),
-# plt.subplot(1, 2, 2), plt.imshow(edged), plt.title('edged'),
-# plt.show()

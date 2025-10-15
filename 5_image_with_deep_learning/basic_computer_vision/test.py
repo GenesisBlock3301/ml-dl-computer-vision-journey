@@ -3,7 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Generate a random high-contrast image (simulate edges everywhere)
-img = np.random.randint(0, 256, (256, 256), dtype=np.uint8)
+random_state = 42
+rng = np.random.default_rng(random_state)
+
+# Generate random integer image
+img = rng.integers(low=0, high=256, size=(256, 256), dtype=np.uint8)
 
 # Apply edge detection kernel (simple Laplacian-like)
 kernel = np.array([[-1, -1, -1],

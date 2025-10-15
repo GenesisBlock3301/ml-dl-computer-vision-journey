@@ -6,12 +6,7 @@ from skimage.metrics import structural_similarity as compare_ssim
 
 
 ap = argparse.ArgumentParser()
-# ap.add_argument('-f', '--first', required=True, help='First input image')
-# ap.add_argument('-s', '--second', required=True, help="Second")
-# args = vars(ap.parse_args())
 
-# imageA = cv2.imread(args['first'])
-# imageB = cv2.imread(args['second'])
 imageA = cv2.imread('./img/img1.png')
 imageB = cv2.imread('./img/img2.png')
 
