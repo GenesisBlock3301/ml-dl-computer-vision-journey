@@ -38,7 +38,7 @@ This course builds on the basics with a focus on handling missing data, categori
 
 ---
 
-### ✅ 3. [Intro to Deep Learning (PyTorch/Keras)](https://www.kaggle.com/learn/deep-learning)
+### ✅ 3. [Intro to Deep Learning](https://www.kaggle.com/learn/deep-learning)
 **Status:** Completed ✅  
 This course introduces neural networks using PyTorch and focuses on core concepts like activation, optimization, and regularization.
 
