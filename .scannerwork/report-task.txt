@@ -1,0 +1,6 @@
+projectKey=ml-dl-computer-vision-journey
+serverUrl=https://sonarqube.brainstation-23.xyz
+serverVersion=25.10.0.114319
+dashboardUrl=https://sonarqube.brainstation-23.xyz/dashboard?id=ml-dl-computer-vision-journey
+ceTaskId=45ce37a0-09e6-427b-b2f1-4dad32068a4b
+ceTaskUrl=https://sonarqube.brainstation-23.xyz/api/ce/task?id=45ce37a0-09e6-427b-b2f1-4dad32068a4b
